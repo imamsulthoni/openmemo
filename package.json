@@ -1,0 +1,23 @@
+{
+  "name": "openmemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.13.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv-cli": "^11.0.0"
+  }
+}
